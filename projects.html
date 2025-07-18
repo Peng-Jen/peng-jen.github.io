@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects | Tim PJ Chen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans min-h-screen flex flex-col">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold text-blue-600">Tim Chen</a>
+            <ul class="flex space-x-6 text-gray-700 font-medium">
+                <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
+                <li><a href="projects.html" class="text-blue-600 font-semibold">Projects</a></li>
+                <li><a href="experience.html" class="hover:text-blue-600">Experience</a></li>
+                <li><a href="cv.html" class="hover:text-blue-600">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="flex-grow max-w-3xl mx-auto px-4 py-10 space-y-10">
+
+        <h1 class="text-5xl font-extrabold mb-2 text-center">Projects</h1>
+
+        <!-- Project 1 -->
+        <section class="bg-white shadow-md rounded-xl p-6 space-y-2">
+            <h2 class="text-2xl font-semibold text-blue-600">Reversi AI Agent (GitHub Community's Reversi)</h2>
+            <p>A reinforcement learning agent trained to play Reversi, capable of defeating human opponents
+                after sufficient self-play and training.</p>
+            <ul class="list-disc list-outside pl-4 text-sm text-gray-600">
+                <li>Implemented using Python and PyTorch</li>
+                <li>Trained locally with a Deep Q-Network (DQN) architecture via self-play</li>
+                <li>Used GitHub Actions to automate README updates via issue-triggered workflows</li>
+            </ul>
+            <a href="https://github.com/Peng-Jen/Peng-Jen" target="_blank"
+                class="text-blue-600 hover:underline text-sm">
+                → View on GitHub
+            </a>
+        </section>
+
+        <!-- Project 2 -->
+        <section class="bg-white shadow-md rounded-xl p-6 space-y-2">
+            <h2 class="text-2xl font-semibold text-blue-600">gamealloc</h2>
+            <p>
+                A Python package for modeling and solving resource allocation problems using game-theoretic
+                frameworks.
+                It implements classical algorithms such as Sequential Priority and Top Trading Cycle to handle matching
+                and trading
+                markets in multi-agent scenarios.
+            </p>
+            <ul class="list-disc list-outside pl-4 text-sm text-gray-600">
+                <li>Designed APIs for checking Pareto efficiency and strategy-proofness across allocation instances</li>
+                <li>Implemented preference manipulation tools and benchmarking routines</li>
+                <li>Packaged for easy reuse, installable via pip and documented with example notebooks</li>
+            </ul>
+            <a href="https://github.com/Peng-Jen/gamealloc" target="_blank"
+                class="text-blue-600 hover:underline text-sm">
+                → View on GitHub
+            </a>
+        </section>
+
+        <!-- Project 3 -->
+        <section class="bg-white shadow-md rounded-xl p-6 space-y-2">
+            <h2 class="text-2xl font-semibold text-blue-600">100 Prisoners Problem Simulator</h2>
+            <p>
+                A Python tool simulating the classic "100 prisoners and 100 boxes" puzzle under two strategies: random
+                picks or cycle-following strategy. Designed to visualize success rates and demonstrate the
+                counterintuitive probability behind the optimal solution.
+            </p>
+            <ul class="list-disc list-outside pl-4 text-sm text-gray-600">
+                <li>Implemented both random-choice and cycle-following algorithms in Python</li>
+                <li>Simulates repeated runs to estimate survival probability under each strategy</li>
+                <li>Developed a Streamlit app to simplify parameter setting and result visualization</li>
+            </ul>
+            <a href="https://github.com/Peng-Jen/prisoners-problem" target="_blank"
+                class="text-blue-600 hover:underline text-sm">
+                → View on GitHub
+            </a>
+        </section>
+
+        <!-- Project 4 -->
+        <section class="bg-white shadow-md rounded-xl p-6 space-y-2">
+            <h2 class="text-2xl font-semibold text-blue-600">
+                Cost-sensitive-Feature-Selection-for-Support-Vector-Machines
+                Public</h2>
+            <p>
+                A Python implementation of a cost-sensitive feature selection method for Support Vector Machines (SVM),
+                balancing
+                classification accuracy with feature acquisition cost. The approach minimizes total feature cost while
+                satisfying
+                true-positive and true-negative rate constraints.
+            </p>
+            <ul class="list-disc list-outside pl-4 text-sm text-gray-600">
+                <li>Phase-I: Uses integer linear programming (ILP) with L1-norm SVM to select low-cost feature subsets
+                </li>
+                <li>Phase-II: Trains final SVM with linear or radial kernel under cost-aware constraints</li>
+                <li>Evaluated using k-fold cross-validation to guarantee performance across datasets</li>
+            </ul>
+            <a href="https://github.com/Peng-Jen/Cost-sensitive-Feature-Selection-for-Support-Vector-Machines"
+                target="_blank" class="text-blue-600 hover:underline text-sm">
+                → View on GitHub
+            </a>
+        </section>
+
+        <!-- Add more projects as needed... -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white text-center py-6 text-sm text-gray-500">
+        © 2025 Peng-Jen Chen
+    </footer>
+
+</body>
+
+</html>

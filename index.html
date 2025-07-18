@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tim PJ Chen | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans min-h-screen flex flex-col">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-xl font-bold text-blue-600">Tim Chen</a>
+      <ul class="flex space-x-6 text-gray-700 font-medium">
+        <li><a href="index.html" class="hover:text-blue-600 font-semibold text-blue-600">Home</a></li>
+        <li><a href="projects.html" class="hover:text-blue-600">Projects</a></li>
+        <li><a href="experience.html" class="hover:text-blue-600">Experience</a></li>
+        <li><a href="cv.html" class="hover:text-blue-600">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <main class="flex-grow max-w-3xl mx-auto px-4 py-10 space-y-10">
+
+    <!-- Intro -->
+    <section class="flex items-center space-x-10 mb-10">
+      <img src="assets/photo.jpg" alt="Tim Chen" class="w-40 h-40 rounded-full object-cover border-4 border-gray-600">
+      <div class="text-center">
+        <h1 class="text-5xl font-extrabold mb-2">Tim (Peng-Jen) Chen</h1>
+        <p class="text-lg text-gray-600">Optimization & Decision Analysis Enthusiast</p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="bg-white shadow-md rounded-xl p-6 text-justify">
+      <h2 class="text-3xl font-semibold text-blue-600 mb-4">About Me</h2>
+      <p>
+        Hi there! I'm currently pursuing a master's degree in Communication Engineering at National Taiwan University,
+        where I focus on applying
+        <strong>Operations Research</strong> and mathematical optimization to tackle the complexity of
+        <strong>Low-Earth-Orbit (LEO) satellite constellations</strong> — from routing strategies to resource allocation
+        problems.
+      </p>
+      <p class="mt-2">
+        Prior to that, I earned dual bachelor's degrees in <strong>Mathematics</strong> and <strong>Information
+          Management</strong>, also from NTU.
+        My academic path has been shaped by a growing interest in decision-making under uncertainty, which has led me to
+        explore topics such as
+        <strong>Reinforcement Learning</strong>, network optimization, and <strong>Game Theory</strong>. One of my early
+        research works
+        was published in
+        <em>Computers and Chemical Engineering</em> in 2024.
+      </p>
+      <p class="mt-2">
+        Outside of academia, I enjoy sharpening my probabilistic thinking at the poker table —
+        <em>Texas Hold'em</em> is my favorite environment to experiment with game-theoretic strategies and imperfect
+        information scenarios.
+        I'm also an active self-learner; in my free time, I train reinforcement learning agents (such as a <a
+          href="/projects.html" class="italic text-blue-600">Reversi AI</a>
+        that eventually beat me), analyze decision processes, and explore elegant algorithms that balance exploration
+        and exploitation.
+      </p>
+      <p class="mt-2">
+        I'm currently open to research or industry opportunities in <strong>Operations Research</strong> and
+        <strong>Decision Science</strong>, and am actively exploring fully-funded PhD programs or a second master's
+        degree abroad, aiming for Fall 2028 admission.
+      </p>
+      <p class="mt-2 italic text-gray-400 text-right">
+        Life is a multi-armed bandit, just keep exploring.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="bg-white shadow-md rounded-xl p-6">
+      <h2 class="text-3xl font-semibold text-blue-600 mb-6">Education</h2>
+
+      <div class="space-y-6">
+
+        <!-- NTU -->
+        <div class="flex items-center space-x-4 bg-gray-50 rounded-lg p-4 shadow-sm">
+          <img src="assets/NTU.svg" alt="NTU Logo" class="w-16 h-16 object-contain">
+          <div>
+            <a href="https://www.ntu.edu.tw/english/" target="_blank"
+              class="text-xl font-semibold text-blue-600 hover:underline">
+              National Taiwan University (NTU)
+            </a>
+            <p class="text-sm text-gray-600">
+              <b>M.S.</b> in Communication Engineering<br>
+              <span class="text-sm text-gray-400 mt-1">Sep. 2025 — Expected 2027</span>
+            </p>
+            <ul class="text-sm text-gray-600 mt-1 list-disc list-inside">
+              <li>Advisor: WanJiun Liao Ph.D</li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="flex items-center space-x-4 bg-gray-50 rounded-lg p-4 shadow-sm">
+          <img src="assets/NTU.svg" alt="NTU Logo" class="w-16 h-16 object-contain">
+          <div>
+            <a href="https://www.ntu.edu.tw/english/" target="_blank"
+              class="text-xl font-semibold text-blue-600 hover:underline">
+              National Taiwan University (NTU)
+            </a>
+            <p class="text-sm text-gray-600">
+              <b>B.S.</b> in Mathematics & <b>B.B.A.</b> in Information Management<br />
+              <span class="text-sm text-gray-400 mt-1">Sep. 2020 — Aug. 2025</span>
+            </p>
+            <ul class="text-sm text-gray-600 mt-1 list-disc list-inside">
+              <li>Overall GPA: 3.34</li>
+              <li>Rank: 24 / 64</li>
+              <li>CS-related GPA: 4.23 (52 credits)</li>
+            </ul>
+
+          </div>
+        </div>
+
+        <!-- Keio -->
+        <div class="flex items-center space-x-4 bg-gray-50 rounded-lg p-4 shadow-sm">
+          <img src="assets/Keio.svg" alt="Keio Logo" class="w-16 h-16 object-contain">
+          <div>
+            <a href="https://www.keio.ac.jp/en/" target="_blank"
+              class="text-xl font-semibold text-blue-600 hover:underline">
+              Keio University, Japan
+            </a>
+            <p class="text-sm text-gray-600">
+              International Exchange Student<br />
+              <span class="text-sm text-gray-400 mt-1">Mar. 2025 — Aug. 2025</span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Publication -->
+    <section class="bg-white shadow-md rounded-xl p-6">
+      <h2 class="text-3xl font-semibold text-blue-600 mb-4">Publication</h2>
+      <p class="italic"><strong>"Robust-Optimization-Guiding Deep Reinforcement Learning for Chemical Material
+          Production Scheduling"</strong></p>
+      <p class="text-sm text-gray-600">Published in <em>Computers and Chemical Engineering</em>, 2024</p>
+    </section>
+
+    <!-- Interests -->
+    <section class="bg-white shadow-md rounded-xl p-6">
+      <h2 class="text-3xl font-semibold text-blue-600 mb-4">Interested Area</h2>
+      <p class="leading-relaxed mb-2">
+        My curiosity lies at the intersection of algorithms, decision-making, and mathematical structure. Specifically,
+        I'm interested in
+      </p>
+      <ul class="list-disc list-inside">
+        <li>Operations Research</li>
+        <li>Decision Analysis</li>
+        <li>Reinforcement Learning</li>
+        <li>Game Theory</li>
+        <li>Applied Mathematics</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-white shadow-md rounded-xl p-6">
+      <h2 class="text-3xl font-semibold text-blue-600 mb-4">Contact</h2>
+      <p>Email: <a href="mailto:tim.pjchen@gmail.com" class="text-blue-600 hover:underline">tim.pjchen@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Peng-Jen" class="text-blue-600 hover:underline"
+          target="_blank">github.com/Peng-Jen</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/tim-pj-chen/" class="text-blue-600 hover:underline"
+          target="_blank">linkedin.com/in/tim-pj-chen</a></p>
+    </section>
+
+  </main>
+
+  <footer class="bg-white text-center py-6 text-sm text-gray-500">
+    © 2025 Peng-Jen Chen
+  </footer>
+
+</body>
+
+</html>
